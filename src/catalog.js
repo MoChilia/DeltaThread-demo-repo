@@ -1,7 +1,7 @@
 export const catalog = new Map([
-  ['notebook', { name: 'Notebook', price: 12.5, taxable: true }],
-  ['pen-set', { name: 'Pen set', price: 8, taxable: true }],
-  ['gift-card', { name: 'Gift card', price: 25, taxable: false }],
+  ['notebook', { name: 'Notebook', price: 12.5, taxable: true, category: 'stationery' }],
+  ['pen-set', { name: 'Pen set', price: 8, taxable: true, category: 'stationery' }],
+  ['gift-card', { name: 'Gift card', price: 25, taxable: false, category: 'gift' }],
 ]);
 
 export function getProduct(sku) {
